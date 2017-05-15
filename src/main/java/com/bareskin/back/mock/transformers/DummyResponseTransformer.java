@@ -7,9 +7,6 @@ import com.github.tomakehurst.wiremock.extension.Parameters;
 import com.github.tomakehurst.wiremock.http.Request;
 import com.github.tomakehurst.wiremock.http.Response;
 
-/**
- * Created by Ramyle on 1/25/17.
- */
 public class DummyResponseTransformer extends NonGlobalResponseTransformer {
     public Response transform(Request request, Response response, FileSource fileSource, Parameters parameters) {
         ClasspathFileSource classpathFileSource = new ClasspathFileSource("responses/");
