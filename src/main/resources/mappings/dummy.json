@@ -1,0 +1,14 @@
+{
+  "request" : {
+    "urlPath" : "/dummy",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body": "temp",
+    "transformers": ["dummy-transformer"],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
