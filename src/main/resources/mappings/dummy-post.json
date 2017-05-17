@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "request" : {
+    "urlPath" : "/vn/epay",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "contains" : "xml"
+      }
+    },
+    "bodyPatterns": [{
+      "matchesXPath" : "//*[contains(local-name(), 'checkTrans')]"
+    }]
+  },
+  "response" : {
+    "status" : 200,
+    "transformers": ["vn-epay-checktrans-transformer"]
+  }
+}

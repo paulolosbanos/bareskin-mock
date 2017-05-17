@@ -1,15 +1,15 @@
 {
   "request" : {
-    "urlPath" : "/dummy",
+    "urlPath" : "/login",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
+    "fixedDelayMilliseconds": 2000,
     "body": "temp",
-    "transformers": ["dummy-transformer"],
+    "transformers": ["login-transformer"],
     "headers": {
       "Content-Type": "application/json"
     }
   }
 }
-
