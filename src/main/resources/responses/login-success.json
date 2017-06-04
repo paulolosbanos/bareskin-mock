@@ -7,14 +7,14 @@
     "uid": "AdjHAS9a8"
   },
   "store-points": 10,
-  "store-value": 500000,
+  "store-value": 70000,
   "store-inventory": [
     {
       "item-id": "00001",
       "item-name": "Luminous Whitening Soap",
-      "item-cost-unit": 10000,
+      "item-cost-unit": 7000,
       "item-srp-unit": 35000,
-      "item-qty": 5
+      "item-qty": 10
     }
   ],
   "store-orders": [
