@@ -15,6 +15,41 @@
       "item-cost-unit": 7000,
       "item-srp-unit": 35000,
       "item-qty": 10
+    },
+    {
+      "item-id": "00002",
+      "item-name": "Luminous Whitening Cream",
+      "item-cost-unit": 7000,
+      "item-srp-unit": 35000,
+      "item-qty": 10
+    },
+    {
+      "item-id": "00003",
+      "item-name": "Luminous Whitening Toner",
+      "item-cost-unit": 7000,
+      "item-srp-unit": 35000,
+      "item-qty": 10
+    },
+    {
+      "item-id": "00004",
+      "item-name": "Luminous Whitening Lotion",
+      "item-cost-unit": 7000,
+      "item-srp-unit": 35000,
+      "item-qty": 10
+    },
+    {
+      "item-id": "00005",
+      "item-name": "Luminous Whitening Kit",
+      "item-cost-unit": 7000,
+      "item-srp-unit": 35000,
+      "item-qty": 10
+    },
+    {
+      "item-id": "00006",
+      "item-name": "Luminous Whitening Solution",
+      "item-cost-unit": 7000,
+      "item-srp-unit": 35000,
+      "item-qty": 10
     }
   ],
   "store-orders": [
