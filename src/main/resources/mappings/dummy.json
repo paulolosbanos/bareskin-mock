@@ -1,12 +1,14 @@
 {
-  "request" : {
-    "urlPath" : "/dummy",
-    "method" : "GET"
+  "request": {
+    "urlPath": "/",
+    "method": "GET"
   },
-  "response" : {
-    "status" : 200,
-    "body": "temp",
-    "transformers": ["dummy-transformer"],
+  "response": {
+    "status": 200,
+    "body": "If you are here to check if it's working, yup. it is.",
+    "transformers": [
+      "dummy-transformer"
+    ],
     "headers": {
       "Content-Type": "application/json"
     }
