@@ -1,7 +1,7 @@
 {
   "priority": 1,
   "request" : {
-    "urlPath" : "/vn/epay",
+    "urlPath" : "/",
     "method" : "POST",
     "headers" : {
       "Content-Type" : {
