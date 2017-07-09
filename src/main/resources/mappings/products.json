@@ -1,0 +1,15 @@
+{
+  "request" : {
+    "urlPath" : "/products",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "fixedDelayMilliseconds": 2000,
+    "body": "temp",
+    "transformers": ["products-transformer"],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

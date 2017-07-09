@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "products": [
+    {
+      "product-id": "00001",
+      "product-name": "Luminous Whitening Cream",
+      "product-cost-unit": 7000,
+      "product-srp-unit": 35000
+    },
+    {
+      "product-id": "00001",
+      "product-name": "Luminous Whitening Cream",
+      "product-cost-unit": 7000,
+      "product-srp-unit": 35000
+    },
+    {
+      "product-id": "00001",
+      "product-name": "Luminous Whitening Cream",
+      "product-cost-unit": 7000,
+      "product-srp-unit": 35000
+    },
+    {
+      "product-id": "00003",
+      "product-name": "Luminous Whitening Toner",
+      "product-cost-unit": 7000,
+      "product-srp-unit": 35000
+    }
+  ]
+}
