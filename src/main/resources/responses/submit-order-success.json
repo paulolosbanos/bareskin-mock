@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "reference-number": "1902132819731246192",
+  "order-date": "2017-09-01",
+  "order-status": "Awaiting Confirmation",
+  "request" : {
+	"address": "adasd",
+	"mobile": "121",
+	"name": "Joseph Paulo Los Banos",
+	"order-unit-list": [
+		{
+			"product": {
+				"product-cost-unit": 7000,
+				"product-id": "00001",
+				"product-name": "Luminous Whitening Cream",
+				"product-srp-unit": 35000,
+				"tags": [
+					"Aaaa",
+					"Bbbb",
+					"Cccc",
+					"Dddd"
+				]
+			},
+			"quantity": 1
+		}
+	],
+	"payment-channel": "BDO",
+	"payment-date": "2017-09-01"
+	}
+}

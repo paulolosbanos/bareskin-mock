@@ -1,0 +1,29 @@
+{
+	"status": "success",
+	"sales-history": [
+		{
+			"buyer-name": "Paulo Los Banos",
+			"reference-number": "1902132819731246192",
+			"buyer-number": "121",
+			"buyer-purchases": [
+				{
+					"product": {
+						"product-cost-unit": 7000,
+						"product-id": "00001",
+						"product-name": "Luminous Whitening Cream",
+						"product-srp-unit": 35000,
+						"tags": [
+							"Aaaa",
+							"Bbbb",
+							"Cccc",
+							"Dddd"
+						]
+					},
+					"quantity": 1
+				}
+			],
+			"payment-channel": "BDO",
+			"payment-date": "2017-09-01"
+		}
+	]
+}

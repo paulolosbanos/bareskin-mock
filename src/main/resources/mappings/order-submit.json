@@ -1,13 +1,13 @@
 {
   "request" : {
-    "urlPath" : "/login",
+    "urlPath" : "/order/submit/101010",
     "method" : "POST"
   },
   "response" : {
     "status" : 200,
     "fixedDelayMilliseconds": 2000,
     "body": "temp",
-    "transformers": ["login-transformer"],
+    "transformers": ["submit-order-transformer"],
     "headers": {
       "Content-Type": "application/json"
     }

@@ -1,8 +1,6 @@
 package com.bareskin.back.mock;
 
-import com.bareskin.back.mock.transformers.DummyResponseTransformer;
-import com.bareskin.back.mock.transformers.LoginResponseTransformer;
-import com.bareskin.back.mock.transformers.ProductsResponseTransformer;
+import com.bareskin.back.mock.transformers.*;
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.common.ClasspathFileSource;
 import com.github.tomakehurst.wiremock.common.ConsoleNotifier;
@@ -25,9 +23,11 @@ public class Application {
                         .notifier(new ConsoleNotifier(true))
                         .extensions(
                                 LoginResponseTransformer.class,
-                                ProductsResponseTransformer.class
+                                ProductsResponseTransformer.class,
+                                SubmitOrderResponseTransformer.class,
+                                RegisterSaleResponseTransformer.class,
+                                SalesHistoryResponseTransformer.class
                         ));
-
         server.start();
     }
 }

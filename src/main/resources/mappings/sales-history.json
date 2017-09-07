@@ -1,13 +1,13 @@
 {
   "request" : {
-    "urlPath" : "/login",
-    "method" : "POST"
+    "urlPath" : "/sale/history/101010",
+    "method" : "GET"
   },
   "response" : {
     "status" : 200,
     "fixedDelayMilliseconds": 2000,
     "body": "temp",
-    "transformers": ["login-transformer"],
+    "transformers": ["sales-history-transformer"],
     "headers": {
       "Content-Type": "application/json"
     }

@@ -8,7 +8,7 @@ import com.github.tomakehurst.wiremock.http.Request;
 import com.github.tomakehurst.wiremock.http.Response;
 import org.json.JSONObject;
 
-public class LoginResponseTransformer extends NonGlobalResponseTransformer {
+public class SubmitOrderResponseTransformer extends NonGlobalResponseTransformer {
     public Response transform(Request request, Response response, FileSource fileSource, Parameters parameters) {
         ClasspathFileSource classpathFileSource = new ClasspathFileSource("responses/");
 
@@ -20,11 +20,11 @@ public class LoginResponseTransformer extends NonGlobalResponseTransformer {
         }
 
         return Response.Builder.like(response)
-                .body(classpathFileSource.getTextFileNamed("login-success.json").readContents())
+                .body(classpathFileSource.getTextFileNamed("submit-order-success.json").readContents())
                 .build();
     }
 
     public String getName() {
-        return "login-transformer";
+        return "submit-order-transformer";
     }
 }

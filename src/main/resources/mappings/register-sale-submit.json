@@ -1,13 +1,13 @@
 {
   "request" : {
-    "urlPath" : "/login",
+    "urlPath" : "/sale/submit",
     "method" : "POST"
   },
   "response" : {
     "status" : 200,
     "fixedDelayMilliseconds": 2000,
     "body": "temp",
-    "transformers": ["login-transformer"],
+    "transformers": ["register-sale-transformer"],
     "headers": {
       "Content-Type": "application/json"
     }

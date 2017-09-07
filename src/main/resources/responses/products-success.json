@@ -1,28 +1,54 @@
 {
   "status": "success",
+  "tags": [
+    "All",
+    "Included",
+    "Aaaa",
+    "Bbbb",
+    "Cccc",
+    "Dddd"
+  ],
   "products": [
     {
       "product-id": "00001",
       "product-name": "Luminous Whitening Cream",
+      "tags": [
+        "Aaaa",
+        "Bbbb",
+        "Cccc",
+        "Dddd"
+      ],
       "product-cost-unit": 7000,
       "product-srp-unit": 35000
     },
     {
-      "product-id": "00001",
-      "product-name": "Luminous Whitening Cream",
+      "product-id": "00002",
+      "product-name": "Luminous Whitening Lotion",
       "product-cost-unit": 7000,
-      "product-srp-unit": 35000
-    },
-    {
-      "product-id": "00001",
-      "product-name": "Luminous Whitening Cream",
-      "product-cost-unit": 7000,
+      "tags": [
+        "Bbbb",
+        "Cccc",
+        "Dddd"
+      ],
       "product-srp-unit": 35000
     },
     {
       "product-id": "00003",
+      "product-name": "Luminous Whitening Soap",
+      "product-cost-unit": 7000,
+      "tags": [
+        "Cccc",
+        "Dddd"
+      ],
+      "product-srp-unit": 35000
+    },
+    {
+      "product-id": "00004",
       "product-name": "Luminous Whitening Toner",
       "product-cost-unit": 7000,
+      "tags": [
+        "Aaaa"
+      ],
       "product-srp-unit": 35000
     }
   ]
