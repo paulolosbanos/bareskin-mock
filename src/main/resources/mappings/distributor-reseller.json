@@ -1,0 +1,15 @@
+{
+  "request" : {
+    "urlPath" : "/members",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "fixedDelayMilliseconds": 2000,
+    "body": "temp",
+    "transformers": ["members-transformer"],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

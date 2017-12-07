@@ -26,7 +26,8 @@ public class Application {
                                 ProductsResponseTransformer.class,
                                 SubmitOrderResponseTransformer.class,
                                 RegisterSaleResponseTransformer.class,
-                                SalesHistoryResponseTransformer.class
+                                SalesHistoryResponseTransformer.class,
+                                MembersResponseTransformer.class
                         ));
         server.start();
     }

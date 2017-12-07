@@ -1,19 +1,13 @@
 {
-  "priority": 1,
-  "request" : {
-    "urlPath" : "/",
-    "method" : "POST",
-    "headers" : {
-      "Content-Type" : {
-        "contains" : "xml"
-      }
-    },
-    "bodyPatterns": [{
-      "matchesXPath" : "//*[contains(local-name(), 'checkTrans')]"
-    }]
+  "request": {
+    "urlPath": "/loginE",
+    "method": "POST"
   },
-  "response" : {
-    "status" : 200,
-    "transformers": ["vn-epay-checktrans-transformer"]
+  "response": {
+    "status": 403,
+    "body": "403",
+    "headers": {
+      "Content-Type": "application/json"
+    }
   }
 }

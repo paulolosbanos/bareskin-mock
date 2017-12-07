@@ -6,7 +6,7 @@
     "phone-number": "09178313782",
     "uid": "101010",
     "invite-code": "AdjHAS9a8",
-    "fullname" : "Joseph Paulo Los Banos"
+    "fullname": "Joseph Paulo Los Banos"
   },
   "store-points": 10,
   "store-value": 70000,
@@ -138,6 +138,36 @@
       "status": "requesting",
       "order-start-date": "2017-06-19",
       "order-id": "#91235"
+    }
+  ],
+  "distributors": [
+    {
+      "location": "Antipolo",
+      "names": [
+        "Joseph Paulo Los Banos",
+        "Abegaill Los Banos",
+        "Maxine Los Banos",
+        "Eireena Los Banos"
+      ]
+    },
+    {
+      "location": "Manila",
+      "names": [
+        "Marissa Valencia",
+        "Edison Valencia",
+        "Eric Valencia"
+      ]
+    }
+  ],
+  "resellers": [
+    {
+      "location": "Antipolo",
+      "names": [
+        "Joseph Paulo Los Banos",
+        "Abegaill Los Banos",
+        "Maxine Los Banos",
+        "Eireena Los Banos"
+      ]
     }
   ]
 }
